@@ -1,0 +1,53 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Binaries for programs and tools
+bin/
+build/
+
+# Vendor directory (if using vendoring)
+vendor/
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.ncb
+*.sw?
+*.swo
+*.swn
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Configuration files (if they contain sensitive data)
+config.yml
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# PostgreSQL
+pgdata/
+*.pgdump
+
+# Coverage reports
+coverage.out
+
+# Go module cache
+.go/
+.golangci.yml
