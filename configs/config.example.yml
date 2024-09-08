@@ -1,0 +1,12 @@
+app_port: "8080"
+
+database:
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "password"
+  name: "kanban"
+
+jwt_secret: "your_jwt_secret"
+
+environment: "development"
