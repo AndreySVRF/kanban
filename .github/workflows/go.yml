@@ -24,7 +24,7 @@ jobs:
         run: go mod tidy
 
       - name: Lint
-        run: golangci-lint run
+        run: go run github.com/golangci/golangci-lint/cmd/golangci-lint run
 
       - name: Run tests
         run: go test -v ./...
