@@ -3,7 +3,7 @@ module kanban
 go 1.23
 
 require (
-	github.com/jackc/pgx/v4 v4.18.3
+	github.com/jackc/pgx/v4 v4.18.2
 	gopkg.in/yaml.v3 v3.0.1
 )
 
